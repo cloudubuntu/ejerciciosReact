@@ -4,7 +4,7 @@ import { Container, Form, Button } from "react-bootstrap";
 import ListaTareas from "./ListaTareas";
 const Ej4 = () => {
   const [tarea, setTarea] = useState("");
-  const [listaTareas, setListaTareas] = useState([]);
+  const [listaTareas, setListaTareas] = useState(JSON.parse(localStorage.getItem('listaTareas'))||[]);
   const handleSubmit = (e) => {
     e.preventDefault();
     if (tarea !== "") {
@@ -16,6 +16,13 @@ const Ej4 = () => {
     let newList=listaTareas.filter((index)=>index!==listaTareas[indexTarea]);
     setListaTareas(newList);
   };
+
+  useEffect(
+    ()=>{
+      console.log('desde el montaje');
+      localStorage.setItem('listaTareas', JSON.stringify(listaTareas))
+    },[listaTareas]
+  )
   return (
     <div className="">
       <Container className="border border-2 border-danger text-center">
