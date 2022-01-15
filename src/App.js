@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import { useState } from 'react';
 import Ej1 from './components/Ej1';
 import Ej2 from './components/Ej2';
 import Ej3 from './components/Ej3';
+import Ej4 from './components/Ej4';
 
 function App() {
   // const [msj, setMsj]=useState('from changed state');
@@ -29,7 +31,8 @@ function App() {
       <hr />
       <Ej2 msj='my friend!'></Ej2>
       <hr />
-      <Ej3 msj='my friend!'></Ej3>
+      {/* <Ej3 msj='my friend!'></Ej3> */}
+      <Ej4></Ej4>
 
     </div>
   );
