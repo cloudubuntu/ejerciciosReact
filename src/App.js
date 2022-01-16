@@ -6,6 +6,7 @@ import Ej1 from './components/Ej1';
 import Ej2 from './components/Ej2';
 import Ej3 from './components/Ej3';
 import Ej4 from './components/Ej4';
+import Ej6 from './components/Ej6';
 
 function App() {
   // const [msj, setMsj]=useState('from changed state');
@@ -27,13 +28,23 @@ function App() {
     //   </header>
     // </div>
     <div>
-      <Ej1></Ej1>
+      <h2>Ej1</h2>
       <hr />
-      <Ej2 msj='my friend!'></Ej2>
+      {/* <Ej1></Ej1> */}
+      <h2>Ej2</h2>
+      <hr />
+      {/* <Ej2 msj='my friend!'></Ej2> */}
+      <h2>Ej3</h2>
       <hr />
       {/* <Ej3 msj='my friend!'></Ej3> */}
-      <Ej4></Ej4>
-
+      <h2>Ej4y5</h2>
+      <hr />
+      {/* <Ej4></Ej4> */}
+      <h2>Ej6</h2>
+      <Ej6></Ej6>
+      <hr />
+      <h2>Ej7</h2>
+      <hr />
     </div>
   );
 }
