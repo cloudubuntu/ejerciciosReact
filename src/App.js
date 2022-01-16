@@ -7,6 +7,7 @@ import Ej2 from './components/Ej2';
 import Ej3 from './components/Ej3';
 import Ej4 from './components/Ej4';
 import Ej6 from './components/Ej6';
+import Ej7 from './components/Ej7';
 
 function App() {
   // const [msj, setMsj]=useState('from changed state');
@@ -41,9 +42,10 @@ function App() {
       <hr />
       {/* <Ej4></Ej4> */}
       <h2>Ej6</h2>
-      <Ej6></Ej6>
+      {/* <Ej6></Ej6> */}
       <hr />
       <h2>Ej7</h2>
+      <Ej7></Ej7>
       <hr />
     </div>
   );
