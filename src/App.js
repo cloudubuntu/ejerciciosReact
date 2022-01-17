@@ -8,6 +8,8 @@ import Ej3 from './components/Ej3';
 import Ej4 from './components/Ej4';
 import Ej6 from './components/Ej6';
 import Ej7 from './components/Ej7';
+import Ej8 from './components/Ej8';
+//import Tform from './components/Tform';
 
 function App() {
   // const [msj, setMsj]=useState('from changed state');
@@ -45,7 +47,11 @@ function App() {
       {/* <Ej6></Ej6> */}
       <hr />
       <h2>Ej7</h2>
-      <Ej7></Ej7>
+      {/* <Ej7></Ej7> */}
+      <hr />
+      <h2>Ej8</h2>
+      <Ej8></Ej8>
+      
       <hr />
     </div>
   );
