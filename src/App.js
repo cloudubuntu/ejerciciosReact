@@ -9,6 +9,7 @@ import Ej4 from './components/Ej4';
 import Ej6 from './components/Ej6';
 import Ej7 from './components/Ej7';
 import Ej8 from './components/Ej8';
+import RegVet from './components/RegVet';
 //import Tform from './components/Tform';
 
 function App() {
@@ -50,8 +51,10 @@ function App() {
       {/* <Ej7></Ej7> */}
       <hr />
       <h2>Ej8</h2>
-      <Ej8></Ej8>
-      
+      <Ej8></Ej8>      
+      <hr />
+      <h2>Ej9</h2>
+      <RegVet></RegVet>
       <hr />
     </div>
   );
